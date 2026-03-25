@@ -1,2 +1,1 @@
-# portfolio
-Sanjay Singh | Portfolio
+# Hi 👋, I am Sanjay Singh
