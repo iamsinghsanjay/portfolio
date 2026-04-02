@@ -1,34 +1,14 @@
 html {
-	height: 100%;
-	font-size: 62.5%;
-}
-
-:root {
-  --bg: white;
-  --text: black;
-}
-
-[data-theme="dark"] {
-  --bg: black;
-  --text: white;
-}
-
-[data-theme="ocean"] {
-  --bg: blue;
-  --text: snow;
-}
-
-[data-theme="light"] {
-  --bg: white;
-  --text: black;
+  height: 100%;
+  font-size: 62.5%;
 }
 
 body {
-	font: normal normal 400 100%/1 system-ui, sans-serif;
-	height: 100%;
-	user-select: none;
+  font: normal normal 400 100%/1 system-ui, sans-serif;
+  height: 100%;
+  user-select: none;
   height: 100%;
   overflow: hidden;
-	background-color: var(--bg);
-	color: var(--text);
+  background-color: var(--bg);
+  color: var(--text);
 }

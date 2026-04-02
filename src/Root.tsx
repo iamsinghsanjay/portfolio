@@ -1,16 +1,10 @@
-import { StrictMode } from "react";
-import App from "./App";
-import "./global.css";
-import { ThemeProvider } from "./ThemeProvider";
+function Root() {
 
-const Root: React.FC = () => {
   return (
-    <StrictMode>
-      <ThemeProvider>
-        <App />
-      </ThemeProvider>
-    </StrictMode>
-  );
-};
+    <>
+      <h1>Hey! I'm Sanjay Singh!</h1>
+    </>
+  )
+}
 
-export default Root;
+export default Root
