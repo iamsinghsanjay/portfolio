@@ -1,9 +1,13 @@
+import { StrictMode } from "react"
+import "./global.css"
+import App from "./App"
+
 function Root() {
 
   return (
-    <>
-      <h1>Hey! I'm Sanjay Singh!</h1>
-    </>
+    <StrictMode>
+      <App />
+    </StrictMode>
   )
 }
 
