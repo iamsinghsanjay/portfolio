@@ -1,12 +1,15 @@
 import { StrictMode } from "react"
 import "./global.css"
 import App from "./App"
+import { ThemeProvider } from "./ThemeProvider"
 
 function Root() {
 
   return (
     <StrictMode>
-      <App />
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
     </StrictMode>
   )
 }
