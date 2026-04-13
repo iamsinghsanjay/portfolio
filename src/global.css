@@ -1,3 +1,18 @@
+[data-theme="dark"] {
+  --bg: black;
+  --text: white;
+}
+
+[data-theme="ocean"] {
+  --bg: blue;
+  --text: snow;
+}
+
+[data-theme="light"] {
+  --bg: white;
+  --text: black;
+}
+
 html {
   height: 100%;
   font-size: 62.5%;
